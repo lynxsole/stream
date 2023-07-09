@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyStream</title>
+</head>
+<body>
+    <div id="showSideBar" class="leftMenu">
+        <div style="text-align: center;" class="">
+            <h2>
+                MyStream
+            </h2>
+        </div>
+    </div>
+
+    <nav>
+        <div class="navContent">
+            <div class="interaction">
+                <div id="sideBtn" class="burgerBtn">
+                    <div class="btn"></div>
+                    <div class="btn"></div>
+                    <div class="btn"></div>
+                </div>
+                
+                <h2>
+                    <a href="#">
+                        MyStream
+                    </a>
+                </h2>
+            </div>
+            <div class="interaction">
+                <form action="get.php" method="post">
+                    <input id="searchBarre" type="search" value="" placeholder="Rechercher">
+                    <!-- <input id="submitBtn" type="submit" value=""> -->
+                </form>
+            </div>
+            <div class="interaction">
+                <img class="userPfp" src="content/UploadIcon.png" alt="">
+                <img class="userPfp" src="content/notifIcon2.png" alt="">
+                <img style="border-radius: 50%;" class="userPfp" src="content/pfp.jpeg" alt="">
+            </div>
+        </div>
+    </nav>
+
+    <div class="leftMenu">
+
+    </div>
+
+    <div class="container">
+        <div class="videoContainer">
+            <video id="playVideo" controls autoplay loop muted src="content/test2.mp4"></video>
+            <!-- <div id="updateProgressBar" class="timeCode"></div>
+            <div class="time">
+                <p id="title-video" style="position: absolute; margin-top: -3.5rem; color: white;">
+                    creator-title
+                </p>
+
+                <p id="title-video" style="position: absolute; margin-top: -1.8rem; color: white; font-weight: normal;">
+                    video-title
+                </p>
+
+                <span>
+                    00:00
+                </span>
+            </div> -->
+
+            <!-- tentative echouer de faire une progresse barre perssonaliser -->
+
+        </div>
+        <div class="interact">
+            <div id="btn">
+                <img style="height: 25px; width: auto; margin-top: 12px;" src="content/reloadIcon.png" alt="" srcset="">
+            </div>
+            <div id="btn">
+                <img style="height: 25px; width: auto; margin-top: 10px;" src="content/like.icon.png" alt="" srcset="">
+            </div>
+            <div id="btn">
+                <img style="height: 25px; width: auto; margin-top: 13px; transform: rotate(180deg);" src="content/like.icon.png" alt="" srcset="">
+            </div>
+            <div id="btn">
+                <img style="height: 25px; width: auto; margin-top: 12.5px;" src="content/favIcon.png" alt="" srcset="">
+            </div>
+            <div id="btn">
+                <img style="height: 25px; width: auto; margin-top: 12px;" src="content/shareIcon.png" alt="" srcset="">
+            </div>
+            <div id="btn">
+                <img style="height: 25px; width: auto; margin-top: 13.2px;" src="content/moreIcon.png" alt="" srcset="">
+            </div>
+                <img style="border-radius: 10px; margin-top: 3rem;" id="btn" class="pfpCreator" src="content/pfptest.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="index.html"></script>
+</body>
+</html>
+
